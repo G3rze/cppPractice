@@ -87,7 +87,7 @@ Owner OwnerSearchByName(string ownerName){
     for(auto & owner : owners){
         count++;
         if(owner.name.empty()){
-            cout<<"--------This owner is not registered jet--------"<<"\n"
+            cout<<"--------This owner is not registered yet--------"<<"\n"
             <<"Enter the owner's phone number: "<<"\n";
             cin>>owner.phone;
             owner.name = ownerName;
